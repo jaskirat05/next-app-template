@@ -1,11 +1,11 @@
-import { ColorSchemeToggle } from '../components/ColorSchemeToggle/ColorSchemeToggle';
-import { Welcome } from '../components/Welcome/Welcome';
+import { SplineHero } from '../components/SplineHero/SplineHero';
+import { Features } from '../components/Features/Features';
 
 export default function HomePage() {
   return (
     <>
-      <Welcome />
-      <ColorSchemeToggle />
+      <SplineHero />
+      <Features />
     </>
   );
 }

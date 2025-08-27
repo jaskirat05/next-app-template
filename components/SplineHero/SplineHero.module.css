@@ -1,0 +1,61 @@
+.hero {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: black;
+}
+
+.splineSection {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 0;
+}
+
+.splineCanvas {
+  max-width: 100%;
+  max-height: 95%;
+  width: auto;
+  height: 95%;
+  aspect-ratio: auto;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 2rem 0;
+}
+
+.navContainer {
+  padding: 0 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.navLink {
+  color: white !important;
+  text-decoration: none !important;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.navLink:hover {
+  color: #4dabf7 !important;
+  transform: translateY(-2px);
+}

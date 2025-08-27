@@ -1,0 +1,1 @@
+export { SplineHero } from './SplineHero';
