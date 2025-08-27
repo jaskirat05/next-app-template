@@ -216,7 +216,6 @@ export default function UploadModal({
     >
       <Stack gap="md">
         <FileInput
-          ref={fileInputRef}
           label="Select Document"
           placeholder="Choose a file..."
           accept={accept}

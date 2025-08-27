@@ -94,7 +94,6 @@ export default function DashboardPage() {
               <div style={{ display: 'flex', justifyContent: 'flex-end', padding: '10px 20px 10px 0' }}>
                 <Button
                   size="xs"
-                  compact
                   onClick={() => fileUploadRef.current?.triggerFileSelect()}
                   style={{
                     fontSize: rem(10),

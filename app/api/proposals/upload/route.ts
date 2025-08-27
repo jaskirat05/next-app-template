@@ -2,11 +2,6 @@ import { NextRequest, NextResponse } from 'next/server'
 import {
   S3Client,
   PutObjectCommand,
-  CreateBucketCommand,
-  DeleteObjectCommand,
-  DeleteBucketCommand,
-  paginateListObjectsV2,
-  GetObjectCommand,
 } from "@aws-sdk/client-s3"
 
 const s3Client = new S3Client({
